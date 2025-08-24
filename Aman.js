@@ -21,18 +21,6 @@ const API_KEYS = [
   process.env.GEMINI_API_KEY10,
   process.env.GEMINI_API_KEY11,
   process.env.GEMINI_API_KEY12,
-  process.env.GEMINI_API_KEY13,
-  process.env.GEMINI_API_KEY14,
-  process.env.GEMINI_API_KEY15,
-  process.env.GEMINI_API_KEY16,
-  process.env.GEMINI_API_KEY17,
-  process.env.GEMINI_API_KEY18,
-  process.env.GEMINI_API_KEY19,
-  process.env.GEMINI_API_KEY20,
-  process.env.GEMINI_API_KEY21,
-  process.env.GEMINI_API_KEY22,
-  process.env.GEMINI_API_KEY23,
-  process.env.GEMINI_API_KEY24,
 ].filter(Boolean);
 
 if (API_KEYS.length === 0) {
